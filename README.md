@@ -12,16 +12,13 @@ src/test - this directory contains your Java service unit test files
 # Elastic beanstalk - Paas
   To deploy application.
   
-# Postman Project
-https://www.getpostman.com/collections/de6bda0d55b71eed3485
-
 # Request - 
-curl --location --request POST 'http://kapilapp-env.eba-ryhgwq4v.us-east-1.elasticbeanstalk.com/append-copyright-symbol' \
+curl --location --request POST 'http://test2-env-1.eba-3x7gpdvh.us-east-1.elasticbeanstalk.com/append-copyright-symbol' \
 --header 'Content-Type: text/plain' \
---data-raw 'We really like the new security features of Google Cloud'
+--data-raw '"We really like the new security features of Amazon Cloud"'
 
 # Response -
-We really like the new security features of Google© Cloud
+"We really like the new security features of Amazon© Cloud"
 
 # What is next  - Serverless 
 Elastic Beanstalk is great, it handles the deployment,capacity provisioning, load balancing, auto-scaling, and health monitoring but still you are paying for resource when your application is not running so lets see serverless solution for this usage case.
