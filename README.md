@@ -21,5 +21,5 @@ curl --location --request POST 'http://test2-env-1.eba-3x7gpdvh.us-east-1.elasti
 "We really like the new security features of Amazon© Cloud"
 
 # What is next  - Serverless 
-Elastic Beanstalk is great, it handles the deployment,capacity provisioning, load balancing, auto-scaling, and health monitoring but still you are paying for resource when your application is not running so lets see serverless solution for this usage case.
+Elastic Beanstalk is great, it handles the deployment,capacity provisioning, load balancing, auto-scaling, and health monitoring but still you are paying for resource when your application is not running so It serverless solution for this usage case should be ideal.
 
